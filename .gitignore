@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Large datasets (avoid uploading gigabyte CSVs to GitHub)
+*.csv
+*.tsv
+*.parquet
+*.zip
+*.tar.gz
+tranall2011_19.csv
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
